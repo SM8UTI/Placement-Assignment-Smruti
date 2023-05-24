@@ -272,7 +272,33 @@ Pseudo-classes in CSS select elements based on state or relation to the document
 
 ```
 
+Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase before the code is executed.
+
+Hoisting applies to both variable declarations and function declarations, allowing you to use them before they are actually declared in the code.
+
+Hoisting only lifts the declarations, not the initializations or assignments, so it's important to be aware of the order of assignments to avoid unexpected results. It's considered best practice to declare variables and functions at the beginning of their respective scopes.
+
 ```
+
+<br>
+
+### 2) What are different higher order functions in JS? What is the difference between .map() and .forEach() ? (2
+
+<br>
+
+#### Answer :
+
+```
+
+The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
+
+The forEach() method returns “undefined“. The map() method returns the newly created array according to the provided callback function.
+
+foreach()  is not executed for empty elements. map()  does not change the original array.
+
+```
+
+
 
 <br>
 
