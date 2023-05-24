@@ -6,8 +6,6 @@
 
 ## HTML Questions :
 
-<hr>
-
 <br>
 
 ### 1) `<!DOCTYPE html>` is it a tag of html? If not, what is it and why do we use it?
@@ -150,8 +148,6 @@ html attributes example :
 
 ## CSS Questions :
 
-<hr>
-
 <br>
 
 ### 1) Whats Box Model in CSS & Which CSS Properties are part of it ?
@@ -266,13 +262,21 @@ Pseudo-classes in CSS select elements based on state or relation to the document
 
 ## Javascript Questions :
 
-<hr>
+<br>
+
+### 1) What is Hoisting in Javascript ?
+
+<br>
+
+#### Answer :
+
+```
+
+```
 
 <br>
 
 ## React Questions :
-
-<hr>
 
 <br>
 
