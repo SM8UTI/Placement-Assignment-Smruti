@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Question 9</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #C4EBF9;
+            padding: 2rem;
+            font-family: monospace;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 4rem;
+            grid-template-areas:
+                "header header header"
+                "aside article article"
+
+            ;
+            color: #fff;
+            place-content: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #02BFB1;
+            display: grid;
+            place-content: center;
+            color: #fff;
+            width: 100%;
+            height: 100px;
+
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: #6EDB6E;
+            display: grid;
+            place-content: center;
+        }
+
+        article {
+            grid-area: article;
+            background-color: #FBB04C;
+            display: grid;
+            width: 100%;
+            min-height: calc(100vh - 250px);
+            position: relative;
+
+        }
+
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem 2rem;
+            justify-content: space-between;
+            place-self: end;
+
+        }
+
+        .img {
+            background-color: #FCD24A;
+            width: 50%;
+            aspect-ratio: 1;
+            display: grid;
+            place-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Header
+        </h1>
+    </header>
+    <main>
+        <aside>
+            <h1>
+                Aside
+            </h1>
+        </aside>
+        <article>
+            <div class="container">
+                <div class="img">
+                    <h1>Image</h1>
+                </div>
+                <div class="img">
+                    <h1>Image</h1>
+                </div>
+                <div class="img">
+                    <h1>Image</h1>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Question 10</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #fff;
+            padding: 1rem;
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+
+        }
+
+        header .logo {
+            background-color: #3d51ff;
+            width: 100%;
+            height: 100px;
+        }
+
+        header nav {
+            background-color: #AAAAA8;
+            width: 100%;
+            height: 100%;
+        }
+
+        section {
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
+            background-color: #AAAAA8;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        main .hero {
+            background-color: #797977;
+            width: 100%;
+            height: 100%;
+            min-height: 50vh;
+        }
+
+        main .service {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr;
+        }
+
+        main .service .item {
+            background-color: #B1D6E8;
+            width: 100%;
+            height: 100%;
+            min-height: 200px;
+        }
+
+        @media (min-width:768px) {
+            body {
+                padding: 2rem;
+            }
+
+            main .service {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
+        </div>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+
+        </section>
+        <div class="service">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <section>
+
+        </section>
+    </main>
+</body>
+
+</html>
